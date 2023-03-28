@@ -1,0 +1,84 @@
+.container{
+    width: 45%;
+    background-color: white;
+    border: 1px solid rgb(235, 235, 235);
+    border-radius: 8px;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 3px 5px 0 rgba(240, 240, 240, 0.3);
+    animation: transitionIn-Y-over 0.5s;
+
+}
+
+.container table{
+    width: 10px;
+}
+
+td{
+    text-align: center;
+    padding: 1000px;
+
+}
+.header-text{
+
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+
+}
+
+.sub-text{
+    font-size: 15px;
+    color: rgb(138, 138, 138);
+}
+
+.form-label{
+    color: rgb(44, 44, 44);
+    text-align: left;
+    font-size: 14px;
+}
+.label-td{
+    text-align: left;
+    padding-top: 10px;
+}
+
+.hover-link1{
+    font-weight: bold;
+}
+
+
+.hover-link1:hover{
+    opacity: 0.8;
+    transition: 0.5s;
+
+
+}.login-btn{
+    /*margin-top: 15px;*/
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+/*
+@media screen and (max-width:650px){
+    
+    .tablee{
+        
+            width: auto;
+           
+      
+    }
+
+    nav .logo{
+        width: 10px;
+        margin: 0px 40px 0px 20px;
+      }
+      
+      .logo img{
+          cursor: pointer;
+          min-width: 350px;
+          height: 10%;
+          width: 10%;
+          vertical-align: top;
+          transition: .5s ease-in-out;
+      }
+}*/

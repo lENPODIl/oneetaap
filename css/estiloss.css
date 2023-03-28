@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Poppins:wght@300;400;600;700&display=swap');
+
+:root{ /*esto es una variable que me va heredar atributos*/
+    --padding-container:80px 0 ; /*variable 1*/
+    --color-title:#1f9161;
+    /*--color-title:#001A49*/
+    
+}
+
+body{
+    font-family: 'Poppins',sans-serif;
+}
+.container{
+    width: 90%;/*ocupo el 90*/
+    max-width: 1200px; /*ancho*/
+    margin: 0 auto; /*el margen se centra automaticamente*/
+    overflow: hidden; /*todo lo que se salga de mis elementos se esconda*/
+    /*background-color: violet; fue para ver como se comportaba mi encabezado con un color proceso a quitarlo*/
+    padding: var(--padding-container) ;
+     
+}
+
+.titulo{
+    font-size: 35px;
+    
+    text-shadow: #1f9161;
+    text-align: center;
+}
+.hero{
+   width: 100%;
+   height: 100vh; /*100 porciento alrto de la pantalla */
+   min-height: 600px; /*alto minimo*/
+   max-height: 800px; /*alto maximo*/
+   position: relative; /*para que un elemento se pocisione correctamente a este contenedor*/
+   display: grid; /*para crear 2 filas*/
+   grid-template-rows: 100px 1fr; /*la primer fila de 100 pixeles y la segunda tome el contednido sobrante despues de los 100 pixeles*/
+   color: #FFFFFF;/*todos los elementos que esten dentro de hero tengan un color blanco*/
+
+}
+
+/*imagen de encabezado*/
+.hero::before{ 
+    content: "";/*contenedor vacio*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(190deg, #0000008c 0%, #0000008c 100%), url('../imagenes/martillo2.jpg');
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 101% 81%, 49% 100%, 0 81%);
+    z-index: -1; /*pone en primera pocision mi texto*/
+
+    
+}
+
+.nav{
+    --padding-container: 0 ;
+    font: optional;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav_title{ /*este es el titulo del depacho*/
+    font-weight: 300;/*peso de fuente mas delgado*/
+}
+
+.nav_items{
+    list-style: none;
+    
+}  
+
+.nav_link{ /*elementos de mi menu o conocido como el UL*/
+    margin-left: auto;
+    padding: 0; /*por defecto tienen un paddin por eso se lo quito*/
+    display: grid;
+    grid-auto-flow: column; /**para poner en horizontal mi lista de menu***/
+    grid-auto-columns: max-content;/*no pasa nada si lo quito*/
+    gap: 2em; /**espacio de la navegacion**/
+}
+
+.nav_links{
+    color: #FFFFFF;/*color de la letra de la navegacion perro*/
+    text-decoration: none;
+}
+
+.nav_menu{/*este es el icono del menu la clase y funcion */
+    margin-left: auto;
+    cursor: pointer; /*para cuando pase el raton se active una accion del icono*/
+    display: none; /*par que no se vea el icono solo en disposituvos moviles*/
+
+}
+
+.nav_img{/*este es el icono del menu la imganen */
+    display: block;
+    width: 30px;
+
+}
+
+/*************************hero_container es la segunda parte del seccion**********************************************/
+
+
+.hero_container{
+    max-width: 800px;/*el ancho es el maximo en 800  HANCHO <--------------->*/
+    --padding-container: 0 ;
+    display: grid;
+    grid-auto-rows: max-content;
+    align-content: center;/**Se alinea verticalmente*/
+    gap: 1em;/*espacio entre ellos de 1 cm*/
+    padding-bottom: 110px;/*para que no se pegue a el recorte*/
+    text-align: center; /*centro todo mi texto*/
+    
+}
+
+.hero_litle{/*MEJOR BUFETE DE MEXICO*/
+    font-size: 3rem; /*tamaño de la letra del */
+}
+
+.hero_paragraph{/*frase EL ABOGADO ES LA UNICA*/
+    margin-bottom: 20px;/*Un margen*/
+}
+
+.botoncito{
+    display: inline-block;
+    background-color: #1f9161;
+    justify-self: center;/*PARA AJUSTRAR EL COLOR SOBRE EL TEXTO DE TU BOTON*/
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 13PX 20PX;
+    border-radius: 30PX;
+}
+
+/*about esto son los cuadros del menu
+*/
+
+.about{ /*mi pacgina esta seccionada about es mi clase y tengo los cuadros de texto*/
+     text-align: center; /*para poder centrar mi texto horizontalmente*/
+
+}
+
+.subtitulo{
+    color:var(--color-title); /*ESTA es mi clase se asocie con el root*/
+    font-size: 2rem;   /*tamaño de la letra del */
+    margin-bottom: 25px; /*el espacio que tego entre en las letras que tengo en mi clase subtitulo*/
+
+}
+
+.about_main{ /*toda mi seccion de parrafos esto es mi clase */
+   padding-top: 80px;
+   display: grid;
+   width: 90%;
+   margin:0  auto;
+   gap: 1em;
+   overflow: hidden;
+   grid-template-columns: repeat(auto-fit,minmax(260px,auto));/*voy a crear mis colummas dinamicas con el auto se hacen mas grandes o pequeñas mis columnas*/
+
+}
+
+
+
+
+
+.about_paragraph{
+    
+    line-height:1.7; /*espacio que tengo entre las lineas de mi enunciado*/
+}
+
+.about_icons{ /*par modificar  la clase icons que viene el ARTICLE    */
+    display: grid; /*hace que  mis icnonos se fueran a lado izquierdo*/
+    gap: 1em;/* Espeacio de los enunciados de mi codifgo o del  texto*/
+    justify-items: center;
+    width: 260px;
+    overflow: hidden;/*par que todo lo que salga de ese elemnto se ocultte*/
+    margin: 0 auto;/**para que se centre*/
+
+}
+
+.about_icon{ /*par modificar los iconos de mis libritos esto ne la clase icons que viene el ARTICLE    */
+
+width: 40px;
+}
+
+
+/************************* konowledge es el segundo apartado **********************************************/
+
+.knowledge{/*https://www.magicpattern.design/tools/css-backgrounds es mi fondo de la imagen*/
+    background-color: #e5e5f7;
+    background-image:  radial-gradient(#1f9161 0.5px, transparent 0.5px), radial-gradient(#1f9161 0.5px, #e5e5f7 0.5px);
+    background-size: 20px 20px; 
+    background-position: 0 0,10px 10px;
+    overflow: hidden;
+
+}
+
+.knowledge_container{
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    gap: 1em; /*es el espacio*/
+    align-items: center;
+}
+
+.knowledge_picture{
+    max-width: 500px;/**/
+    
+}
+
+.knowledge_paragraph{
+    line-height: 1.7;/*espacio que tengo entre las lineas de mi enunciado*/
+    margin-bottom: 15px;
+    padding-top: 10px;
+}
+
+.knowledge_img{
+    width: 100%; /*la imagen aunque esta grande ocupa su 100 pociento lo ajusta*/
+    display: block;
+}
+
+
+
+/************************* Apartado de planes de y precios en el radio un cochinero **********************************************/
+
+.price{
+    text-align: center;/*para poder centrar mi texto*/ 
+}
+
+.price_table{
+    padding-top: 70px; /*este es el espacio o margen que abra hacia arriba*/
+    display: flex;/*tambien puedo usar display:inline-block; ....mantiene linea en el bloque*/
+    flex-wrap: wrap;/******************PARA QUE NO SE DESBORDE LA INFO CUANDO SE HAGA MAS PEQUEÑO EN NAVEGADOR******************/
+    gap: 2.5em; /*es el espacio que tengo de manera horizontal de mis cuadros*/
+    justify-content: space-evenly;/*justifico el contenido el espacio entre cuadros*/
+    /*align-items: center;*/
+}
+
+.price_element{ /*es el cuadro de todos los precios*/
+    background-color: #e5e5f7;
+    text-align: center;
+    border-radius: 10px; /*mas redondos mis cuadros*/
+    padding: 50px;
+    width: 330px;
+    --color-plan: #696871;
+    --color-price: #1f9161;
+    --bg-cta: #fff;
+    --color-cta: #1f9161;
+    --color-items: #696871;
+    
+}
+
+.price_name{ /*es el titulo primcipal de mi cuadro lo que esta escrito hasta arriba*/
+    color: #1f9161;
+    margin-bottom: 20px; /*margen de abajo*/
+    font-weight: 300;/*se ve mas delgada la letra*/
+}
+
+.price_price{
+    font-size: 2.5rem;
+    color: #1f9161;
+}
+
+.price_intems{
+    margin-top: 35px; /*margen de arriba*/
+    display:grid;
+    gap: 1em;
+    font-weight: 300; /*se ve mas delgada la letra*/
+    font-size: 1,5rem;
+    margin-bottom: 50px;/*margen de abajo*/
+    color:#1f9161;
+
+}
+
+.price_cta{ /*el boton de los precios*/
+    background-color:#1f9161;
+    display: block; /*bloqueo pabtalla me dio el cuadro solido*/
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;/*se le quita el subrayado no tiene decoracion*/
+    font-weight: 600;
+    box-shadow: 0 0 1px rgb(1,1,1,0.5);
+}
+
+.price_element--best{
+    background-color: #1f9161;
+    --color-plan: rgb(255 255 255 /75%);
+    --color-price: #FFF;
+    --bg-cta: #fff;
+    --color-cta: #1f9161;
+    --color-items: #FFF;
+}
+
+
+/************************* Apartado de ABOGADOS **********************************************/
+
+
+/* Testimony */
+
+.testimony{
+    background-color: #e5e5f7;
+}
+
+.testimony_container{
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;/*para crear columnas*/
+    gap: 1em;/*el espaciado al parecer este va hacia la derecha*/
+    align-items: center;/*todo el contenido se centra verticalmente*/
+}
+
+.testimony_body{/*esta es la caja de testimonio*/
+    display: grid;/*hace que mi texto que ubique en un cuadro imaginario*/
+    grid-template-columns:1fr max-content; /*se acomoda la cuadricula*/
+    justify-content: space-between;/*que el contenido se vaya a las esquinas*/
+    align-items: center;/*se centrara verticalmente*/
+    gap: 2em;/*el espaciado al parecer este va hacia la derecha*/
+
+    /*segunda parte*/
+    grid-column: 2/3;/*coloco 2 columnas*/
+    grid-row: 1/2;/*coloco en las misma pocision se va sobreponer uno sobre otro*/
+    opacity: 0;/*oculto los baners*/
+    pointer-events: none;/*les quito eventos al pasar mi cursor*/
+
+
+}
+
+.testimony_body--show{
+    pointer-events: unset;/*para que vaya a la propiedad ortiginal*/
+    opacity: 1;
+    transition: opacity 1.5s ease-in-out; /*solo se muestra la clase con el baner 1*/
+
+   
+}
+
+.testimony_img{
+    width: 1000px;
+    height: 350px;
+    border-radius: 100px;
+    object-fit: cover;
+    object-position: 50% 45%; /*para ajustar la imgen en Y*/
+}
+
+.testimony_texts{
+    max-width: 700px;
+    
+}
+
+.testimony_course{
+    background-color: #1f9161;
+    color: #FFF;
+    display: inline-block; /*alinear mi cuadro de texto*/
+    padding: 5px;/*el margen de mi cuadrado*/
+    
+}
+
+.testimony_arrow{
+    width: 100%;
+    cursor:pointer;
+   
+}
