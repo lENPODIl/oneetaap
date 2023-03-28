@@ -1,0 +1,1654 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="estilosrepor.css">
+    <link rel="stylesheet" href="estilosslide.css">
+    <link rel="stylesheet" href="estilosinterusuario.css">
+    <link rel="shortcut icon" href="images/LogoOneTapCortadoColorTransparente.png" type="image/x-icon">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rambla&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rum+Raisin&display=swap" rel="stylesheet">
+
+    <meta name="theme-color" content="#202020">
+
+    <script src="https://kit.fontawesome.com/a01a75bbd0.js" crossorigin="anonymous"></script>
+
+    <title>Perfil</title>
+</head>
+
+<body>
+
+    <!--Seccion Menu-->
+
+    <header>
+        <nav class="contenedormenu">
+            <div class="logo" onclick="location.href='perfilusuario.html';">
+                <img src="images/OneTapLetraLogoBlanco.png">
+            </div>
+            <div class="enlaces">
+                <a href="#son"><i class="fa-solid fa-music"></i>Sonidos</a>
+                <a href="index.php"><i class="fa-solid fa-right-from-bracket"></i>Cerrar Sesion</a>
+            </div>
+            
+
+            <div class="hamburguesa">
+                <img src="images/imgmenu.png" id="hamburguesa">
+            </div>
+
+        </nav>
+    </header>
+
+    <!--Imagen Portada-->
+
+    <div class="portada" id="inicioo">
+        <img src="images/studio23.jpg" alt="">
+    </div>
+
+    <!--Seccion Redes Sociales-->
+
+    <div class="socialbar">
+        <a href="https://www.facebook.com/profile.php?id=100091389575360" class="iconface" target="_blank"><img src="images/iconf.png" class="icosociales"></a>
+        <a href="https://www.instagram.com/lone_tapl/" class="iconinsta" target="_blank"><img src="images/iconi.png" class="icosociales"></a>
+        <a href="https://twitter.com/lOneTapl" class="icontwi" target="_blank"><img src="images/icont.png" class="icosociales"></a>
+        
+    </div>
+    <main>
+
+        <script type="text/javascript" src="assets/jquery/jquery.min.js"></script>
+        <script type="text/javascript" src="scriptrepro.js"></script>
+       
+    
+
+        <div class="wrap">
+            <h2 class="titulos" id="son">Sonidos</h2>
+            <div class="store-wrapper">
+                <div class="category_list">
+                    <p href="#" class="category_item" category="all">Todo</p>
+                    <br>
+                    <p href="#" class="category_item" category="melodias">Melodias</p>
+                    <p href="#" class="category_item" category="beats">Beats</p>
+                    <br>
+                    <p href="#" class="category_item" category="808">808</p>
+                    <p href="#" class="category_item" category="kicks">Kikcs</p>
+                    <p href="#" class="category_item" category="hats">Hats</p>
+                    <p href="#" class="category_item" category="snares">Snares</p>
+                    <p href="#" class="category_item" category="claps">Claps</p>
+                    <p href="#" class="category_item" category="vocales">Vocales</p>
+                    <br>
+                    <p href="#" class="category_item" category="badbunny">Bab Bunny</p>
+                    <p href="#" class="category_item" category="paulo">Paulo Londra</p>
+                    <p href="#" class="category_item" category="junior">Junior H</p>
+                    <p href="#" class="category_item" category="kygo">Kygo</p>
+                    <p href="#" class="category_item" category="duki">Duki</p>
+                    <p href="#" class="category_item" category="lit">Lit Killah</p>
+                    <p href="#" class="category_item" category="travis">Travis Scott</p>
+                    <p href="#" class="category_item" category="mello">Marshmello</p>
+                    <p href="#" class="category_item" category="martin">Martin Garrix</p>
+                    <p href="#" class="category_item" category="weeknd">The Weeknd</p>
+                    <p href="#" class="category_item" category="sheeran">Ed Sheeran</p>
+                    
+
+                </div>
+                <section class="products-list">
+                    <div class="product-item" category="melodias">
+                        <img src="assets/CatalogoSonidos/Melodias/IMGMelodia.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio">
+                                <source src="assets/CatalogoSonidos/Melodias/MalBecDuki.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP" onclick="playPause()">Play</p>  
+                          
+                            <a class="a1" download="MalbecDukiFlauta" href="assets/CatalogoSonidos/Melodias/MalBecDuki.mp3">Descargar</a>
+                        </div>
+                    </div>
+
+                    <div class="product-item" category="melodias">
+                        <img src="assets/CatalogoSonidos/Melodias/IMGMelodia.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio1">
+                                <source src="assets/CatalogoSonidos/Melodias/MelodiaArmonicaSenti.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP1" onclick="playPause1()">Play</p>  
+                          
+                            <a class="a1" download="MelodiaArmonicaSenti" href="assets/CatalogoSonidos/Melodias/MelodiaArmonicaSenti.mp3">Descargar</a>
+                        </div>
+                    </div>
+
+                    <div class="product-item" category="melodias">
+                        <img src="assets/CatalogoSonidos/Melodias/IMGMelodia.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio2">
+                                <source src="assets/CatalogoSonidos/Melodias/MelodiaElecNe.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP2" onclick="playPause2()">Play</p>  
+                          
+                            <a class="a1" download="MelodiaElectronica" href="assets/CatalogoSonidos/Melodias/MelodiaElecNe.mp3">Descargar</a>
+                        </div>
+                    </div>
+
+                    <div class="product-item" category="melodias">
+                        <img src="assets/CatalogoSonidos/Melodias/IMGMelodia.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio3">
+                                <source src="assets/CatalogoSonidos/Melodias/MelodiaEpicaOrchestal.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP3" onclick="playPause3()">Play</p>  
+                          
+                            <a class="a1" download="MelodiaEpicaOrchestal" href="assets/CatalogoSonidos/Melodias/MelodiaEpicaOrchestal.mp3">Descargar</a>
+                        </div>
+                    </div>
+
+                    <div class="product-item" category="melodias">
+                        <img src="assets/CatalogoSonidos/Melodias/IMGMelodia.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio4">
+                                <source src="assets/CatalogoSonidos/Melodias/MelodiaGuitarra.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP4" onclick="playPause4()">Play</p>  
+                          
+                            <a class="a1" download="MelodiaGuitarra" href="assets/CatalogoSonidos/Melodias/MelodiaGuitarra.mp3">Descargar</a>
+                        </div>
+                    </div>
+
+                    <div class="product-item" category="melodias">
+                        <img src="assets/CatalogoSonidos/Melodias/IMGMelodia.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio5">
+                                <source src="assets/CatalogoSonidos/Melodias/MelodiaMedieval.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP5" onclick="playPause5()">Play</p>  
+                          
+                            <a class="a1" download="MelodiaMedieval" href="assets/CatalogoSonidos/Melodias/MelodiaMedieval.mp3">Descargar</a>
+                        </div>
+                    </div>
+
+                    <div class="product-item" category="melodias">
+                        <img src="assets/CatalogoSonidos/Melodias/IMGMelodia.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio6">
+                                <source src="assets/CatalogoSonidos/Melodias/MelodiaSentiEpica.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP6" onclick="playPause6()">Play</p>  
+                          
+                            <a class="a1" download="MelodiaSentiEpica" href="assets/CatalogoSonidos/Melodias/MelodiaSentiEpica.mp3">Descargar</a>
+                        </div>
+                    </div>
+
+                    <div class="product-item" category="melodias">
+                        <img src="assets/CatalogoSonidos/Melodias/IMGMelodia.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio7">
+                                <source src="assets/CatalogoSonidos/Melodias/N95-BeatStyle.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP7" onclick="playPause7()">Play</p>  
+                          
+                            <a class="a1" download="N95StyleBeat" href="assets/CatalogoSonidos/Melodias/N95-BeatStyle.mp3">Descargar</a>
+                        </div>
+                    </div>
+
+                    <div class="product-item" category="melodias">
+                        <img src="assets/CatalogoSonidos/Melodias/IMGMelodia.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio8">
+                                <source src="assets/CatalogoSonidos/Melodias/OrchestalMelodia.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP8" onclick="playPause8()">Play</p>  
+                          
+                            <a class="a1" download="MelodiOrchestal2" href="assets/CatalogoSonidos/Melodias/OrchestalMelodia.mp3">Descargar</a>
+                        </div>
+                    </div>
+
+                    <div class="product-item" category="melodias">
+                        <img src="assets/CatalogoSonidos/Melodias/IMGMelodia.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio9">
+                                <source src="assets/CatalogoSonidos/Melodias/PistaAmbientadaSola.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP9" onclick="playPause9()">Play</p>  
+                          
+                            <a class="a1" download="MelodiaAmbientada" href="assets/CatalogoSonidos/Melodias/PistaAmbientadaSola.mp3">Descargar</a>
+                        </div>
+                    </div>
+
+                    
+
+                    <div class="product-item" category="beats">
+                        <img src="assets/CatalogoSonidos/Beats/IMGBeat.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio10">
+                                <source src="assets/CatalogoSonidos/Beats/N95BeatStyle2.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP10" onclick="playPause10()">Play</p>  
+                          
+                            <a class="a1" download="N95-BeatStylee" href="assets/CatalogoSonidos/Beats/N95BeatStyle2.mp3">Descargar</a>
+                        </div>
+                    </div>
+
+                    <div class="product-item" category="beats">
+                        <img src="assets/CatalogoSonidos/Beats/IMGBeat.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio11">
+                                <source src="assets/CatalogoSonidos/Beats/RegetonFullBajo.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP11" onclick="playPause11()">Play</p>  
+                          
+                            <a class="a1" download="FullRegBajo" href="assets/CatalogoSonidos/Beats/RegetonFullBajo.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="beats">
+                        <img src="assets/CatalogoSonidos/Beats/IMGBeat.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio12">
+                                <source src="assets/CatalogoSonidos/Beats/RegetonTrite.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP12" onclick="playPause12()">Play</p>  
+                          
+                            <a class="a1" download="RegTriste" href="assets/CatalogoSonidos/Beats/RegetonTrite.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="beats">
+                        <img src="assets/CatalogoSonidos/Beats/IMGBeat.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio13">
+                                <source src="assets/CatalogoSonidos/Beats/ReggaetonNice.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP13" onclick="playPause13()">Play</p>  
+                          
+                            <a class="a1" download="RegNice" href="assets/CatalogoSonidos/Beats/ReggaetonNice.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="beats">
+                        <img src="assets/CatalogoSonidos/Beats/IMGBeat.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio14">
+                                <source src="assets/CatalogoSonidos/Beats/TecnoChavez.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP14" onclick="playPause14()">Play</p>  
+                          
+                            <a class="a1" download="FullTecno" href="assets/CatalogoSonidos/Beats/TecnoChavez.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="beats">
+                        <img src="assets/CatalogoSonidos/Beats/IMGBeat.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio15">
+                                <source src="assets/CatalogoSonidos/Beats/TrapBeatEp.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP15" onclick="playPause15()">Play</p>  
+                          
+                            <a class="a1" download="TrapBeatEp" href="assets/CatalogoSonidos/Beats/TrapBeatEp.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="beats">
+                        <img src="assets/CatalogoSonidos/Beats/IMGBeat.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio16">
+                                <source src="assets/CatalogoSonidos/Beats/TrapEpicardo.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP16" onclick="playPause16()">Play</p>  
+                          
+                            <a class="a1" download="TrapEpicardo" href="assets/CatalogoSonidos/Beats/TrapEpicardo.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="beats">
+                        <img src="assets/CatalogoSonidos/Beats/IMGBeat.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio17">
+                                <source src="assets/CatalogoSonidos/Beats/TrapInstrumental.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP17" onclick="playPause17()">Play</p>  
+                          
+                            <a class="a1" download="TrapInstrumental" href="assets/CatalogoSonidos/Beats/TrapInstrumental.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="beats">
+                        <img src="assets/CatalogoSonidos/Beats/IMGBeat.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio18">
+                                <source src="assets/CatalogoSonidos/Beats/TrapMasEPICO.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP18" onclick="playPause18()">Play</p>  
+                          
+                            <a class="a1" download="TrapFullEpic" href="assets/CatalogoSonidos/Beats/TrapMasEPICO.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="beats">
+                        <img src="assets/CatalogoSonidos/Beats/IMGBeat.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio19">
+                                <source src="assets/CatalogoSonidos/Beats/TrapTumTum.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP19" onclick="playPause19()">Play</p>  
+                          
+                            <a class="a1" download="TrapMelodico" href="assets/CatalogoSonidos/Beats/TrapTumTum.mp3">Descargar</a>
+                        </div>
+                    </div>
+
+
+
+                    <div class="product-item" category="808">
+                        <img src="assets/CatalogoSonidos/808/IMG808.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio20">
+                                <source src="assets/CatalogoSonidos/808/808-1.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP20" onclick="playPause20()">Play</p>  
+                          
+                            <a class="a1" download="808-1" href="assets/CatalogoSonidos/808/808-1.mp3">Descargar</a>
+                        </div>
+                    </div>
+
+                    <div class="product-item" category="808">
+                        <img src="assets/CatalogoSonidos/808/IMG808.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio21">
+                                <source src="assets/CatalogoSonidos/808/808-2.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP21" onclick="playPause21()">Play</p>  
+                          
+                            <a class="a1" download="808-2" href="assets/CatalogoSonidos/808/808-2.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    
+                    <div class="product-item" category="808">
+                        <img src="assets/CatalogoSonidos/808/IMG808.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio22">
+                                <source src="assets/CatalogoSonidos/808/808-3.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP22" onclick="playPause22()">Play</p>  
+                          
+                            <a class="a1" download="808-3" href="assets/CatalogoSonidos/808/808-3.mp3">Descargar</a>
+                        </div>
+                    </div>
+
+                    <div class="product-item" category="808">
+                        <img src="assets/CatalogoSonidos/808/IMG808.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio23">
+                                <source src="assets/CatalogoSonidos/808/808-4.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP23" onclick="playPause23()">Play</p>  
+                          
+                            <a class="a1" download="808-4" href="assets/CatalogoSonidos/808/808-4.mp3">Descargar</a>
+                        </div>
+                    </div>
+
+                    <div class="product-item" category="808">
+                        <img src="assets/CatalogoSonidos/808/IMG808.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio24">
+                                <source src="assets/CatalogoSonidos/808/808-5.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP24" onclick="playPause24()">Play</p>  
+                          
+                            <a class="a1" download="808-5" href="assets/CatalogoSonidos/808/808-5.mp3">Descargar</a>
+                        </div>
+                    </div>
+
+                    <div class="product-item" category="808">
+                        <img src="assets/CatalogoSonidos/808/IMG808.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio25">
+                                <source src="assets/CatalogoSonidos/808/808-6.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP25" onclick="playPause25()">Play</p>  
+                          
+                            <a class="a1" download="808-6" href="assets/CatalogoSonidos/808/808-6.mp3">Descargar</a>
+                        </div>
+                    </div>
+
+                    <div class="product-item" category="808">
+                        <img src="assets/CatalogoSonidos/808/IMG808.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio26">
+                                <source src="assets/CatalogoSonidos/808/808-7.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP26" onclick="playPause26()">Play</p>  
+                          
+                            <a class="a1" download="808-7" href="assets/CatalogoSonidos/808/808-7.mp3">Descargar</a>
+                        </div>
+                    </div>
+
+                    <div class="product-item" category="808">
+                        <img src="assets/CatalogoSonidos/808/IMG808.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio27">
+                                <source src="assets/CatalogoSonidos/808/808-8.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP27" onclick="playPause27()">Play</p>  
+                          
+                            <a class="a1" download="808-8" href="assets/CatalogoSonidos/808/808-8.mp3">Descargar</a>
+                        </div>
+                    </div>
+
+                    <div class="product-item" category="808">
+                        <img src="assets/CatalogoSonidos/808/IMG808.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio28">
+                                <source src="assets/CatalogoSonidos/808/808-9.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP28" onclick="playPause28()">Play</p>  
+                          
+                            <a class="a1" download="808-9" href="assets/CatalogoSonidos/808/808-9.mp3">Descargar</a>
+                        </div>
+                    </div>
+
+                    <div class="product-item" category="808">
+                        <img src="assets/CatalogoSonidos/808/IMG808.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio29">
+                                <source src="assets/CatalogoSonidos/808/808-10.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP29" onclick="playPause29()">Play</p>  
+                          
+                            <a class="a1" download="808-10" href="assets/CatalogoSonidos/808/808-10.mp3">Descargar</a>
+                        </div>
+                    </div>
+
+
+
+                    <div class="product-item" category="kicks">
+                        <img src="assets/CatalogoSonidos/Kicks/IMGkick.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio30">
+                                <source src="assets/CatalogoSonidos/Kicks/Kick1.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP30" onclick="playPause30()">Play</p>  
+                          
+                            <a class="a1" download="Kick1" href="assets/CatalogoSonidos/Kicks/Kick1.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="kicks">
+                        <img src="assets/CatalogoSonidos/Kicks/IMGkick.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio31">
+                                <source src="assets/CatalogoSonidos/Kicks/Kick2.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP31" onclick="playPause31()">Play</p>  
+                          
+                            <a class="a1" download="Kick2" href="assets/CatalogoSonidos/Kicks/Kick2.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="kicks">
+                        <img src="assets/CatalogoSonidos/Kicks/IMGkick.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio32">
+                                <source src="assets/CatalogoSonidos/Kicks/Kick3.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP32" onclick="playPause32()">Play</p>  
+                          
+                            <a class="a1" download="Kick3" href="assets/CatalogoSonidos/Kicks/Kick3.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="kicks">
+                        <img src="assets/CatalogoSonidos/Kicks/IMGkick.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio33">
+                                <source src="assets/CatalogoSonidos/Kicks/Kick4.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP33" onclick="playPause33()">Play</p>  
+                          
+                            <a class="a1" download="Kick4" href="assets/CatalogoSonidos/Kicks/Kick4.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="kicks">
+                        <img src="assets/CatalogoSonidos/Kicks/IMGkick.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio34">
+                                <source src="assets/CatalogoSonidos/Kicks/Kick5.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP34" onclick="playPause34()">Play</p>  
+                          
+                            <a class="a1" download="Kick5" href="assets/CatalogoSonidos/Kicks/Kick5.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="kicks">
+                        <img src="assets/CatalogoSonidos/Kicks/IMGkick.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio35">
+                                <source src="assets/CatalogoSonidos/Kicks/Kick6.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP35" onclick="playPause35()">Play</p>  
+                          
+                            <a class="a1" download="Kick6" href="assets/CatalogoSonidos/Kicks/Kick6.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="kicks">
+                        <img src="assets/CatalogoSonidos/Kicks/IMGkick.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio36">
+                                <source src="assets/CatalogoSonidos/Kicks/Kick7.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP36" onclick="playPause36()">Play</p>  
+                          
+                            <a class="a1" download="Kick7" href="assets/CatalogoSonidos/Kicks/Kick7.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="kicks">
+                        <img src="assets/CatalogoSonidos/Kicks/IMGkick.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio37">
+                                <source src="assets/CatalogoSonidos/Kicks/Kick8.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP37" onclick="playPause37()">Play</p>  
+                          
+                            <a class="a1" download="Kick8" href="assets/CatalogoSonidos/Kicks/Kick8.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="kicks">
+                        <img src="assets/CatalogoSonidos/Kicks/IMGkick.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio38">
+                                <source src="assets/CatalogoSonidos/Kicks/Kick9.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP38" onclick="playPause38()">Play</p>  
+                          
+                            <a class="a1" download="Kick9" href="assets/CatalogoSonidos/Kicks/Kick9.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="kicks">
+                        <img src="assets/CatalogoSonidos/Kicks/IMGkick.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio39">
+                                <source src="assets/CatalogoSonidos/Kicks/Kicks10.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP39" onclick="playPause39()">Play</p>  
+                          
+                            <a class="a1" download="Kick10" href="assets/CatalogoSonidos/Kicks/Kicks10.mp3">Descargar</a>
+                        </div>
+                    </div>
+
+                    
+
+
+                    <div class="product-item" category="hats">
+                        <img src="assets/CatalogoSonidos/Hats/IMGHat.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio40">
+                                <source src="assets/CatalogoSonidos/Hats/Hat1.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP40" onclick="playPause40()">Play</p>  
+                          
+                            <a class="a1" download="Hat1" href="assets/CatalogoSonidos/Hats/Hat1.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="hats">
+                        <img src="assets/CatalogoSonidos/Hats/IMGHat.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio41">
+                                <source src="assets/CatalogoSonidos/Hats/Hat2.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP41" onclick="playPause41()">Play</p>  
+                          
+                            <a class="a1" download="Hat2" href="assets/CatalogoSonidos/Hats/Hat2.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="hats">
+                        <img src="assets/CatalogoSonidos/Hats/IMGHat.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio42">
+                                <source src="assets/CatalogoSonidos/Hats/Hat3.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP42" onclick="playPause42()">Play</p>  
+                          
+                            <a class="a1" download="Hat3" href="assets/CatalogoSonidos/Hats/Hat3.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="hats">
+                        <img src="assets/CatalogoSonidos/Hats/IMGHat.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio43">
+                                <source src="assets/CatalogoSonidos/Hats/Hat4.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP43" onclick="playPause43()">Play</p>  
+                          
+                            <a class="a1" download="Hat4" href="assets/CatalogoSonidos/Hats/Hat4.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="hats">
+                        <img src="assets/CatalogoSonidos/Hats/IMGHat.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio44">
+                                <source src="assets/CatalogoSonidos/Hats/Hat5.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP44" onclick="playPause44()">Play</p>  
+                          
+                            <a class="a1" download="Hat5" href="assets/CatalogoSonidos/Hats/Hat5.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="hats">
+                        <img src="assets/CatalogoSonidos/Hats/IMGHat.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio45">
+                                <source src="assets/CatalogoSonidos/Hats/Hat6.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP45" onclick="playPause45()">Play</p>  
+                          
+                            <a class="a1" download="Hat6" href="assets/CatalogoSonidos/Hats/Hat6.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="hats">
+                        <img src="assets/CatalogoSonidos/Hats/IMGHat.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio46">
+                                <source src="assets/CatalogoSonidos/Hats/Hat7.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP46" onclick="playPause46()">Play</p>  
+                          
+                            <a class="a1" download="Hat7" href="assets/CatalogoSonidos/Hats/Hat7.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="hats">
+                        <img src="assets/CatalogoSonidos/Hats/IMGHat.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio47">
+                                <source src="assets/CatalogoSonidos/Hats/Hat8.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP47" onclick="playPause47()">Play</p>  
+                          
+                            <a class="a1" download="Hat8" href="assets/CatalogoSonidos/Hats/Hat8.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="hats">
+                        <img src="assets/CatalogoSonidos/Hats/IMGHat.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio48">
+                                <source src="assets/CatalogoSonidos/Hats/Hat9.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP48" onclick="playPause48()">Play</p>  
+                          
+                            <a class="a1" download="Hat9" href="assets/CatalogoSonidos/Hats/Hat9.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="hats">
+                        <img src="assets/CatalogoSonidos/Hats/IMGHat.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio49">
+                                <source src="assets/CatalogoSonidos/Hats/Hat10.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP49" onclick="playPause49()">Play</p>  
+                          
+                            <a class="a1" download="Hat10" href="assets/CatalogoSonidos/Hats/Hat10.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    
+
+                    <div class="product-item" category="snares">
+                        <img src="assets/CatalogoSonidos/Snares/IMGSnare.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio50">
+                                <source src="assets/CatalogoSonidos/Snares/Snare1.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP50" onclick="playPause50()">Play</p>  
+                          
+                            <a class="a1" download="Snare-1" href="assets/CatalogoSonidos/Snares/Snare1.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="snares">
+                        <img src="assets/CatalogoSonidos/Snares/IMGSnare.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio51">
+                                <source src="assets/CatalogoSonidos/Snares/Snare2.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP51" onclick="playPause51()">Play</p>  
+                          
+                            <a class="a1" download="Snare-2" href="assets/CatalogoSonidos/Snares/Snare2.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="snares">
+                        <img src="assets/CatalogoSonidos/Snares/IMGSnare.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio52">
+                                <source src="assets/CatalogoSonidos/Snares/Snare3.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP52" onclick="playPause52()">Play</p>  
+                          
+                            <a class="a1" download="Snare-3" href="assets/CatalogoSonidos/Snares/Snare3.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="snares">
+                        <img src="assets/CatalogoSonidos/Snares/IMGSnare.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio53">
+                                <source src="assets/CatalogoSonidos/Snares/Snare4.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP53" onclick="playPause53()">Play</p>  
+                          
+                            <a class="a1" download="Snare-4" href="assets/CatalogoSonidos/Snares/Snare4.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="snares">
+                        <img src="assets/CatalogoSonidos/Snares/IMGSnare.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio54">
+                                <source src="assets/CatalogoSonidos/Snares/Snare5.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP54" onclick="playPause54()">Play</p>  
+                          
+                            <a class="a1" download="Snare-5" href="assets/CatalogoSonidos/Snares/Snare5.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="snares">
+                        <img src="assets/CatalogoSonidos/Snares/IMGSnare.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio55">
+                                <source src="assets/CatalogoSonidos/Snares/Snare6.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP55" onclick="playPause55()">Play</p>  
+                          
+                            <a class="a1" download="Snare-6" href="assets/CatalogoSonidos/Snares/Snare6.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="snares">
+                        <img src="assets/CatalogoSonidos/Snares/IMGSnare.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio56">
+                                <source src="assets/CatalogoSonidos/Snares/Snare7.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP56" onclick="playPause56()">Play</p>  
+                          
+                            <a class="a1" download="Snare-7" href="assets/CatalogoSonidos/Snares/Snare7.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="snares">
+                        <img src="assets/CatalogoSonidos/Snares/IMGSnare.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio57">
+                                <source src="assets/CatalogoSonidos/Snares/Snare8.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP57" onclick="playPause57()">Play</p>  
+                          
+                            <a class="a1" download="Snare-8" href="assets/CatalogoSonidos/Snares/Snare8.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="snares">
+                        <img src="assets/CatalogoSonidos/Snares/IMGSnare.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio58">
+                                <source src="assets/CatalogoSonidos/Snares/Snare9.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP58" onclick="playPause58()">Play</p>  
+                          
+                            <a class="a1" download="Snare-9" href="assets/CatalogoSonidos/Snares/Snare9.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="snares">
+                        <img src="assets/CatalogoSonidos/Snares/IMGSnare.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio59">
+                                <source src="assets/CatalogoSonidos/Snares/Snare10.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP59" onclick="playPause59()">Play</p>  
+                          
+                            <a class="a1" download="Snare-10" href="assets/CatalogoSonidos/Snares/Snare10.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    
+
+                    
+                    <div class="product-item" category="claps">
+                        <img src="assets/CatalogoSonidos/Claps/IMGClap.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio60">
+                                <source src="assets/CatalogoSonidos/Claps/Clap1.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP60" onclick="playPause60()">Play</p>  
+                          
+                            <a class="a1" download="Clap1" href="assets/CatalogoSonidos/Claps/Clap1.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="claps">
+                        <img src="assets/CatalogoSonidos/Claps/IMGClap.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio61">
+                                <source src="assets/CatalogoSonidos/Claps/Clap2.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP61" onclick="playPause61()">Play</p>  
+                          
+                            <a class="a1" download="Clap2" href="assets/CatalogoSonidos/Claps/Clap2.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="claps">
+                        <img src="assets/CatalogoSonidos/Claps/IMGClap.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio62">
+                                <source src="assets/CatalogoSonidos/Claps/Clap3.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP62" onclick="playPause62()">Play</p>  
+                          
+                            <a class="a1" download="Clap3" href="assets/CatalogoSonidos/Claps/Clap3.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="claps">
+                        <img src="assets/CatalogoSonidos/Claps/IMGClap.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio63">
+                                <source src="assets/CatalogoSonidos/Claps/Clap4.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP63" onclick="playPause63()">Play</p>  
+                          
+                            <a class="a1" download="Clap4" href="assets/CatalogoSonidos/Claps/Clap4.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="claps">
+                        <img src="assets/CatalogoSonidos/Claps/IMGClap.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio64">
+                                <source src="assets/CatalogoSonidos/Claps/Clap5.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP64" onclick="playPause64()">Play</p>  
+                          
+                            <a class="a1" download="Clap5" href="assets/CatalogoSonidos/Claps/Clap5.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="claps">
+                        <img src="assets/CatalogoSonidos/Claps/IMGClap.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio65">
+                                <source src="assets/CatalogoSonidos/Claps/Clap6.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP65" onclick="playPause65()">Play</p>  
+                          
+                            <a class="a1" download="Clap6" href="assets/CatalogoSonidos/Claps/Clap6.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="claps">
+                        <img src="assets/CatalogoSonidos/Claps/IMGClap.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio66">
+                                <source src="assets/CatalogoSonidos/Claps/Clap7.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP66" onclick="playPause66()">Play</p>  
+                          
+                            <a class="a1" download="Clap7" href="assets/CatalogoSonidos/Claps/Clap7.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="claps">
+                        <img src="assets/CatalogoSonidos/Claps/IMGClap.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio67">
+                                <source src="assets/CatalogoSonidos/Claps/Clap8.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP67" onclick="playPause67()">Play</p>  
+                          
+                            <a class="a1" download="Clap8" href="assets/CatalogoSonidos/Claps/Clap8.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="claps">
+                        <img src="assets/CatalogoSonidos/Claps/IMGClap.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio68">
+                                <source src="assets/CatalogoSonidos/Claps/Clap9.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP68" onclick="playPause68()">Play</p>  
+                          
+                            <a class="a1" download="Clap9" href="assets/CatalogoSonidos/Claps/Clap9.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="claps">
+                        <img src="assets/CatalogoSonidos/Claps/IMGClap.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio69">
+                                <source src="assets/CatalogoSonidos/Claps/Clap10.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP69" onclick="playPause69()">Play</p>  
+                          
+                            <a class="a1" download="Clap10" href="assets/CatalogoSonidos/Claps/Clap10.mp3">Descargar</a>
+                        </div>
+                    </div>
+
+                    
+
+                    <div class="product-item" category="vocales">
+                        <img src="assets/CatalogoSonidos/Vocales/IMGVocals.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio70">
+                                <source src="assets/CatalogoSonidos/Vocales/Vocal1.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP70" onclick="playPause70()">Play</p>  
+                          
+                            <a class="a1" download="Vocal1" href="assets/CatalogoSonidos/Vocales/Vocal1.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="vocales">
+                        <img src="assets/CatalogoSonidos/Vocales/IMGVocals.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio71">
+                                <source src="assets/CatalogoSonidos/Vocales/Vocal2.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP71" onclick="playPause71()">Play</p>  
+                          
+                            <a class="a1" download="Vocal2" href="assets/CatalogoSonidos/Vocales/Vocal2.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="vocales">
+                        <img src="assets/CatalogoSonidos/Vocales/IMGVocals.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio72">
+                                <source src="assets/CatalogoSonidos/Vocales/Vocal3.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP72" onclick="playPause72()">Play</p>  
+                          
+                            <a class="a1" download="Vocal3" href="assets/CatalogoSonidos/Vocales/Vocal3.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="vocales">
+                        <img src="assets/CatalogoSonidos/Vocales/IMGVocals.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio73">
+                                <source src="assets/CatalogoSonidos/Vocales/Vocal4.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP73" onclick="playPause73()">Play</p>  
+                          
+                            <a class="a1" download="Vocal4" href="assets/CatalogoSonidos/Vocales/Vocal4.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="vocales">
+                        <img src="assets/CatalogoSonidos/Vocales/IMGVocals.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio74">
+                                <source src="assets/CatalogoSonidos/Vocales/Vocal5.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP74" onclick="playPause74()">Play</p>  
+                          
+                            <a class="a1" download="Vocal5" href="assets/CatalogoSonidos/Vocales/Vocal5.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="vocales">
+                        <img src="assets/CatalogoSonidos/Vocales/IMGVocals.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio75">
+                                <source src="assets/CatalogoSonidos/Vocales/Vocal6.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP75" onclick="playPause75()">Play</p>  
+                          
+                            <a class="a1" download="Vocal6" href="assets/CatalogoSonidos/Vocales/Vocal6.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="vocales">
+                        <img src="assets/CatalogoSonidos/Vocales/IMGVocals.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio76">
+                                <source src="assets/CatalogoSonidos/Vocales/Vocal7.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP76" onclick="playPause76()">Play</p>  
+                          
+                            <a class="a1" download="Vocal7" href="assets/CatalogoSonidos/Vocales/Vocal7.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="vocales">
+                        <img src="assets/CatalogoSonidos/Vocales/IMGVocals.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio77">
+                                <source src="assets/CatalogoSonidos/Vocales/Vocal8.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP77" onclick="playPause77()">Play</p>  
+                          
+                            <a class="a1" download="Vocal8" href="assets/CatalogoSonidos/Vocales/Vocal8.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="vocales">
+                        <img src="assets/CatalogoSonidos/Vocales/IMGVocals.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio78">
+                                <source src="assets/CatalogoSonidos/Vocales/Vocal9.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP78" onclick="playPause78()">Play</p>  
+                          
+                            <a class="a1" download="Vocal9" href="assets/CatalogoSonidos/Vocales/Vocal9.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="vocales">
+                        <img src="assets/CatalogoSonidos/Vocales/IMGVocals.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio79">
+                                <source src="assets/CatalogoSonidos/Vocales/Vocal10.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP79" onclick="playPause79()">Play</p>  
+                          
+                            <a class="a1" download="Vocal10" href="assets/CatalogoSonidos/Vocales/Vocal10.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    
+
+
+
+                    <div class="product-item" category="badbunny">
+                        <img src="assets/CatalogoSonidos/ArtistasMe/BadBunny/BadBunnyCalladita.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio80">
+                                <source src="assets/CatalogoSonidos/ArtistasMe/BadBunny/BadBunnyCalladitaMelodiaEqualizada.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP80" onclick="playPause80()">Play</p>  
+                          
+                            <a class="a1" download="BadBunnyCalladitaMelodia" href="assets/CatalogoSonidos/ArtistasMe/BadBunny/BadBunnyCalladitaMelodiaEqualizada.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="badbunny">
+                        <img src="assets/CatalogoSonidos/ArtistasMe/BadBunny/BadBunnyOjitosLindos.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio81">
+                                <source src="assets/CatalogoSonidos/ArtistasMe/BadBunny/BadBunnyTrompetasOjitosLindos.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP81" onclick="playPause81()">Play</p>  
+                          
+                            <a class="a1" download="BadBunnyOjitosLindosMelodia" href="assets/CatalogoSonidos/ArtistasMe/BadBunny/BadBunnyTrompetasOjitosLindos.mp3">Descargar</a>
+                        </div>
+                    </div>
+
+                    <div class="product-item" category="paulo">
+                        <img src="assets/CatalogoSonidos/ArtistasMe/PauloLondra/PauloLondraBZRPsession.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio82">
+                                <source src="assets/CatalogoSonidos/ArtistasMe/PauloLondra/BZRPpauloLondraMelodia.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP82" onclick="playPause82()">Play</p>  
+                          
+                            <a class="a1" download="PauloLondraBZRPsessionMelodia" href="assets/CatalogoSonidos/ArtistasMe/PauloLondra/BZRPpauloLondraMelodia.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="paulo">
+                        <img src="assets/CatalogoSonidos/ArtistasMe/PauloLondra/PauloLondraAdanYEvaa.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio83">
+                                <source src="assets/CatalogoSonidos/ArtistasMe/PauloLondra/PauloLondraAdanYEvaMelodiaEqualizada.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP83" onclick="playPause83()">Play</p>  
+                          
+                            <a class="a1" download="PauloLondraAdanYEvaMelodia" href="assets/CatalogoSonidos/ArtistasMe/PauloLondra/PauloLondraAdanYEvaMelodiaEqualizada.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="paulo">
+                        <img src="assets/CatalogoSonidos/ArtistasMe/PauloLondra/PauloLondraPorEsoVinee.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio84">
+                                <source src="assets/CatalogoSonidos/ArtistasMe/PauloLondra/PauloLondraPorEsoVineMelodiaEqualizada.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP84" onclick="playPause84()">Play</p>  
+                          
+                            <a class="a1" download="PauloLondraPorEsoVineMelodia" href="assets/CatalogoSonidos/ArtistasMe/PauloLondra/PauloLondraPorEsoVineMelodiaEqualizada.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="paulo">
+                        <img src="assets/CatalogoSonidos/ArtistasMe/PauloLondra/PauloLondraDukiPartyEnElBarrio.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio85">
+                                <source src="assets/CatalogoSonidos/ArtistasMe/PauloLondra/PauloLondraDukiPartyEnElBarriloMelodia.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP85" onclick="playPause85()">Play</p>  
+                          
+                            <a class="a1" download="PauloLondraPartyEnElBarrioMelodia" href="assets/CatalogoSonidos/ArtistasMe/PauloLondra/PauloLondraDukiPartyEnElBarriloMelodia.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="paulo">
+                        <img src="assets/CatalogoSonidos/ArtistasMe/PauloLondra/PauloLondraSoloPiensoEnTii.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio86">
+                                <source src="assets/CatalogoSonidos/ArtistasMe/PauloLondra/PauloLondraSoloPiensoEnTiMelodia.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP86" onclick="playPause86()">Play</p>  
+                          
+                            <a class="a1" download="PauloLondraSoloPiensoEnTiMelodia" href="assets/CatalogoSonidos/ArtistasMe/PauloLondra/PauloLondraSoloPiensoEnTiMelodia.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="paulo">
+                        <img src="assets/CatalogoSonidos/ArtistasMe/PauloLondra/PauloLondraChanceMeloida.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio111">
+                                <source src="assets/CatalogoSonidos/ArtistasMe/PauloLondra/PauloLondraChanceMeloida.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP111" onclick="playPause111()">Play</p>  
+                          
+                            <a class="a1" download="PauloLondraChanceMelodia" href="assets/CatalogoSonidos/ArtistasMe/PauloLondra/PauloLondraChanceMeloida.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="paulo">
+                        <img src="assets/CatalogoSonidos/ArtistasMe/PauloLondra/PauloLondraChicaParanormal.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio112">
+                                <source src="assets/CatalogoSonidos/ArtistasMe/PauloLondra/PauloLondraChicaParanormalMelodia.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP112" onclick="playPause112()">Play</p>  
+                          
+                            <a class="a1" download="PauloLondraChicaParanormalMelodia" href="assets/CatalogoSonidos/ArtistasMe/PauloLondra/PauloLondraChicaParanormalMelodia.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="paulo">
+                        <img src="assets/CatalogoSonidos/ArtistasMe/PauloLondra/PauloLondraPlanA.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio113">
+                                <source src="assets/CatalogoSonidos/ArtistasMe/PauloLondra/PauloLondraPlanAMelodia.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP113" onclick="playPause113()">Play</p>  
+                          
+                            <a class="a1" download="PauloLondraPlanAMelodia" href="assets/CatalogoSonidos/ArtistasMe/PauloLondra/PauloLondraPlanAMelodia.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="paulo">
+                        <img src="assets/CatalogoSonidos/ArtistasMe/PauloLondra/PauloLondraAveces.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio114">
+                                <source src="assets/CatalogoSonidos/ArtistasMe/PauloLondra/PauloLondraAvecesMelodia.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP114" onclick="playPause114()">Play</p>  
+                          
+                            <a class="a1" download="PauloLondraAvecesMelodia" href="assets/CatalogoSonidos/ArtistasMe/PauloLondra/PauloLondraAvecesMelodia.mp3">Descargar</a>
+                        </div>
+                    </div>
+
+        
+                    <div class="product-item" category="junior">
+                        <img src="assets/CatalogoSonidos/ArtistasMe/JuniorH/JuniorH1.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio87">
+                                <source src="assets/CatalogoSonidos/ArtistasMe/JuniorH/JuniorhAcusticaMelodia.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP87" onclick="playPause87()">Play</p>  
+                          
+                            <a class="a1" download="JuniorHAcusticaMelodia1" href="assets/CatalogoSonidos/ArtistasMe/JuniorH/JuniorhAcusticaMelodia.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="junior">
+                        <img src="assets/CatalogoSonidos/ArtistasMe/JuniorH/JuniorH2.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio88">
+                                <source src="assets/CatalogoSonidos/ArtistasMe/JuniorH/JuniorhAcusticaMelodia2.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP88" onclick="playPause88()">Play</p>  
+                          
+                            <a class="a1" download="JuniorHAcustiaMelodia2" href="assets/CatalogoSonidos/ArtistasMe/JuniorH/JuniorhAcusticaMelodia2.mp3">Descargar</a>
+                        </div>
+                    </div>
+
+                    <div class="product-item" category="kygo">
+                        <img src="assets/CatalogoSonidos/ArtistasMe/Kygo/KygoStargazing1.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio89">
+                                <source src="assets/CatalogoSonidos/ArtistasMe/Kygo/KygoStargazinMelodia1.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP89" onclick="playPause89()">Play</p>  
+                          
+                            <a class="a1" download="KygoStargazingMelodia1" href="assets/CatalogoSonidos/ArtistasMe/Kygo/KygoStargazinMelodia1.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="kygo">
+                        <img src="assets/CatalogoSonidos/ArtistasMe/Kygo/KygoStargazing2.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio90">
+                                <source src="assets/CatalogoSonidos/ArtistasMe/Kygo/KygoStargazinMelodia2.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP90" onclick="playPause90()">Play</p>  
+                          
+                            <a class="a1" download="KygoStargazingMelodia2" href="assets/CatalogoSonidos/ArtistasMe/Kygo/KygoStargazinMelodia2.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="kygo">
+                        <img src="assets/CatalogoSonidos/ArtistasMe/Kygo/KygoStolenShow1.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio91">
+                                <source src="assets/CatalogoSonidos/ArtistasMe/Kygo/KygoStolenShowMelodiaEqualizada.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP91" onclick="playPause91()">Play</p>  
+                          
+                            <a class="a1" download="KygoStolenShowMelodia" href="assets/CatalogoSonidos/ArtistasMe/Kygo/KygoStolenShowMelodiaEqualizada.mp3">Descargar</a>
+                        </div>
+                    </div>
+
+                    
+                    <div class="product-item" category="duki">
+                        <img src="assets/CatalogoSonidos/ArtistasMe/Duki/DukiGivenchi1.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio92">
+                                <source src="assets/CatalogoSonidos/ArtistasMe/Duki/DukiGivenchyMelodiaInicioEqualizada.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP92" onclick="playPause92()">Play</p>  
+                          
+                            <a class="a1" download="DukiGivenchyMelodiaInicio" href="assets/CatalogoSonidos/ArtistasMe/Duki/DukiGivenchyMelodiaInicioEqualizada.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="duki">
+                        <img src="assets/CatalogoSonidos/ArtistasMe/Duki/DukiGivenchi2.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio93">
+                                <source src="assets/CatalogoSonidos/ArtistasMe/Duki/DukiGivenchyMelodiaEpicaEqualizada.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP93" onclick="playPause93()">Play</p>  
+                          
+                            <a class="a1" download="DukiGivenchyMelodiaEpica" href="assets/CatalogoSonidos/ArtistasMe/Duki/DukiGivenchyMelodiaEpicaEqualizada.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="duki">
+                        <img src="assets/CatalogoSonidos/ArtistasMe/Duki/DukiMalbec.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio94">
+                                <source src="assets/CatalogoSonidos/ArtistasMe/Duki/MalbecFlautaReverb.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP94" onclick="playPause94()">Play</p>  
+                          
+                            <a class="a1" download="DukiMalbecMelodia" href="assets/CatalogoSonidos/ArtistasMe/Duki/MalbecFlautaReverb.mp3">Descargar</a>
+                        </div>
+                    </div>
+
+
+                    <div class="product-item" category="lit">
+                        <img src="assets/CatalogoSonidos/ArtistasMe/LitKillah/LitBombon.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio95">
+                                <source src="assets/CatalogoSonidos/ArtistasMe/LitKillah/LitKillahKillerBomBomMelodiaEqualizada.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP95" onclick="playPause95()">Play</p>  
+                          
+                            <a class="a1" download="LitKillahBomBonMelodia" href="assets/CatalogoSonidos/ArtistasMe/LitKillah/LitKillahKillerBomBomMelodiaEqualizada.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="lit">
+                        <img src="assets/CatalogoSonidos/ArtistasMe/LitKillah/LitMalaMia.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio96">
+                                <source src="assets/CatalogoSonidos/ArtistasMe/LitKillah/LitKillahDukiMalaMiaMelodiaEqualizada.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP96" onclick="playPause96()">Play</p>  
+                          
+                            <a class="a1" download="LitKillahMalaMiaMelodia" href="assets/CatalogoSonidos/ArtistasMe/LitKillah/LitKillahDukiMalaMiaMelodiaEqualizada.mp3">Descargar</a>
+                        </div>
+                    </div>
+
+
+                    <div class="product-item" category="travis">
+                        <img src="assets/CatalogoSonidos/ArtistasMe/TravisScott/TravisScottHighest1.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio97">
+                                <source src="assets/CatalogoSonidos/ArtistasMe/TravisScott/TravisScottHighestInTheRoomMelodia1Equializada.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP97" onclick="playPause97()">Play</p>  
+                          
+                            <a class="a1" download="TravisScottHighestInTheRoomMelodia1" href="assets/CatalogoSonidos/ArtistasMe/TravisScott/TravisScottHighestInTheRoomMelodia1Equializada.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="travis">
+                        <img src="assets/CatalogoSonidos/ArtistasMe/TravisScott/TravisScottHighest2.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio98">
+                                <source src="assets/CatalogoSonidos/ArtistasMe/TravisScott/TravisScottHighestInTheRoomMelodiaArmonicaEqualizada.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP98" onclick="playPause98()">Play</p>  
+                          
+                            <a class="a1" download="TravisScottHighestInTheRoomMelodiaArmonica" href="assets/CatalogoSonidos/ArtistasMe/TravisScott/TravisScottHighestInTheRoomMelodiaArmonicaEqualizada.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="travis">
+                        <img src="assets/CatalogoSonidos/ArtistasMe/TravisScott/TravisScottSickoModee.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio99">
+                                <source src="assets/CatalogoSonidos/ArtistasMe/TravisScott/TravisScottSickoModeMelodiaEqualizada.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP99" onclick="playPause99()">Play</p>  
+                          
+                            <a class="a1" download="TravisScottSickoModeMelodia" href="assets/CatalogoSonidos/ArtistasMe/TravisScott/TravisScottSickoModeMelodiaEqualizada.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="travis">
+                        <img src="assets/CatalogoSonidos/ArtistasMe/TravisScott/TravisScottOutWest.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio100">
+                                <source src="assets/CatalogoSonidos/ArtistasMe/TravisScott/TravisScottOutWestMelodiaEqualizada.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP100" onclick="playPause100()">Play</p>  
+                          
+                            <a class="a1" download="TravisScottOutWestMelodia" href="assets/CatalogoSonidos/ArtistasMe/TravisScott/TravisScottOutWestMelodiaEqualizada.mp3">Descargar</a>
+                        </div>
+                    </div>
+
+                    <div class="product-item" category="mello">
+                        <img src="assets/CatalogoSonidos/ArtistasMe/Marshmello/MarshmelloHappier1.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio101">
+                                <source src="assets/CatalogoSonidos/ArtistasMe/Marshmello/MarshmelloHappierMelodia1.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP101" onclick="playPause101()">Play</p>  
+                          
+                            <a class="a1" download="MarshmelloHappierMelodia1" href="assets/CatalogoSonidos/ArtistasMe/Marshmello/MarshmelloHappierMelodia1.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="mello">
+                        <img src="assets/CatalogoSonidos/ArtistasMe/Marshmello/MarshmelloHappier2.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio102">
+                                <source src="assets/CatalogoSonidos/ArtistasMe/Marshmello/MarshmelloHappierMelodia1synth.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP102" onclick="playPause102()">Play</p>  
+                          
+                            <a class="a1" download="MarshmelloHappierMelodia2" href="assets/CatalogoSonidos/ArtistasMe/Marshmello/MarshmelloHappierMelodia1synth.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="mello">
+                        <img src="assets/CatalogoSonidos/ArtistasMe/Marshmello/MarshmelloHappier3.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio103">
+                                <source src="assets/CatalogoSonidos/ArtistasMe/Marshmello/MarshmelloHappierMelodia2.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP103" onclick="playPause103()">Play</p>  
+                          
+                            <a class="a1" download="MarshmelloHappierMelodia3" href="assets/CatalogoSonidos/ArtistasMe/Marshmello/MarshmelloHappierMelodia2.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="mello">
+                        <img src="assets/CatalogoSonidos/ArtistasMe/Marshmello/MarshmelloRitual.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio104">
+                                <source src="assets/CatalogoSonidos/ArtistasMe/Marshmello/MarshmelloRItualIntro.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP104" onclick="playPause104()">Play</p>  
+                          
+                            <a class="a1" download="MarshmelloHappierMelodia1" href="assets/CatalogoSonidos/ArtistasMe/Marshmello/MarshmelloRItualIntro.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    
+
+                    <div class="product-item" category="martin">
+                        <img src="assets/CatalogoSonidos/ArtistasMe/MartinGarrix/MartinGarrixAnimalss.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio105">
+                                <source src="assets/CatalogoSonidos/ArtistasMe/MartinGarrix/MartinGarrixAnimalsMelodia.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP105" onclick="playPause105()">Play</p>  
+                          
+                            <a class="a1" download="MartinGarrixAnimalsMelodia" href="assets/CatalogoSonidos/ArtistasMe/MartinGarrix/MartinGarrixAnimalsMelodia.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="martin">
+                        <img src="assets/CatalogoSonidos/ArtistasMe/MartinGarrix/MartinGarrixTheseAreTheTimes.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio106">
+                                <source src="assets/CatalogoSonidos/ArtistasMe/MartinGarrix/MartinGarrixTheseAreTimesMelodia.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP106" onclick="playPause106()">Play</p>  
+                          
+                            <a class="a1" download="MartinGarrixTheseAreTheTimesMelodia" href="assets/CatalogoSonidos/ArtistasMe/MartinGarrix/MartinGarrixTheseAreTimesMelodia.mp3">Descargar</a>
+                        </div>
+                    </div>
+
+                    <div class="product-item" category="weeknd">
+                        <img src="assets/CatalogoSonidos/ArtistasMe/TheWeekend/TheWeekndBlindingLights.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio107">
+                                <source src="assets/CatalogoSonidos/ArtistasMe/TheWeekend/TheWeeknBlingsMelodiaEqualizada.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP107" onclick="playPause107()">Play</p>  
+                          
+                            <a class="a1" download="TheWeekendBlindingLightsMelodia" href="assets/CatalogoSonidos/ArtistasMe/TheWeekend/TheWeeknBlingsMelodiaEqualizada.mp3">Descargar</a>
+                        </div>
+                    </div>
+                    <div class="product-item" category="weeknd">
+                        <img src="assets/CatalogoSonidos/ArtistasMe/TheWeekend/TheWeekndInYourEyes.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio108">
+                                <source src="assets/CatalogoSonidos/ArtistasMe/TheWeekend/TheWeekndYourEyesMelodiaEqualizada.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP108" onclick="playPause108()">Play</p>  
+                          
+                            <a class="a1" download="TheWeekendInYourEyesMelodia" href="assets/CatalogoSonidos/ArtistasMe/TheWeekend/TheWeekndYourEyesMelodiaEqualizada.mp3">Descargar</a>
+                        </div>
+                    </div>
+
+                    <div class="product-item" category="sheeran">
+                        <img src="assets/CatalogoSonidos/ArtistasMe/EdSheeran/EdSheeranShapeOfYou.png" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio109">
+                                <source src="assets/CatalogoSonidos/ArtistasMe/EdSheeran/EdSheeranShapeOfYouBassEqualizada.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP109" onclick="playPause109()">Play</p>  
+                          
+                            <a class="a1" download="EdSheeranShapeOfYouMelodiaBass" href="assets/CatalogoSonidos/ArtistasMe/EdSheeran/EdSheeranShapeOfYouBassEqualizada.mp3">Descargar</a>
+                        </div>
+                    </div>                  
+                    <div class="product-item" category="sheeran">
+                        <img src="assets/CatalogoSonidos/ArtistasMe/EdSheeran/EdSheeranShapeOfYou1.jpg" alt="" >
+                        <div class="botonesselect">
+                            <audio id="audio110">
+                                <source src="assets/CatalogoSonidos/ArtistasMe/EdSheeran/EdSheeranShapeOfYouFullStringsEquializada.mp3" type="audio/mpeg">
+                            </audio>
+                            <p class="p1" id="playPauseP110" onclick="playPause110()">Play</p>  
+                          
+                            <a class="a1" download="EdSheeranShapeOfYouMelodiaFullStrings" href="assets/CatalogoSonidos/ArtistasMe/EdSheeran/EdSheeranShapeOfYouFullStringsEquializada.mp3">Descargar</a>
+                        </div>
+                    </div>
+
+                    
+                </section>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="main.js"></script>
+
+
+        <section class="concard" id="dibujantee">
+            <div class="Carousel">
+                <div class="slick-list" id="slick-list">
+                    <button class="slick-arrow slick-prev" id="button-prev" data-button="button-prev" onclick="app.processingButton(event)">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-left" class="svg-inline--fa fa-chevron-left fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"></path></svg>
+                    </button>
+                
+                    <div class="slick-track" id="track">
+                        <div class="slick">
+                            <div>
+                                <button class="category_item" category="badbunny">
+                                    <a href="#son">
+                                        <h4><small>Bad Bunny</small>Un Vrano Sin Ti</h4>
+                                        <picture>
+                                            <img src="./images/album1.jpg" alt="Image">
+                                        </picture>
+                                    </a>                                
+                                </button>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div>
+                                <button class="category_item" category="paulo">
+                                    <a href="#son">
+                                        <h4><small>Paulo Londra</small>Homerun</h4>
+                                        <picture>
+                                            <img src="./images/album2.jpg" alt="Image">
+                                        </picture>
+                                    </a>                                
+                                </button>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div>
+                                <button class="category_item" category="junior">
+                                    <a href="#son">
+                                        <h4><small>Junior H</small>Musica<3</h4>
+                                        <picture>
+                                            <img src="./images/album4.jpg" alt="Image">
+                                        </picture>
+                                    </a>                                
+                                </button>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div>
+                                <button class="category_item" category="kygo">
+                                    <a href="#son">
+                                        <h4><small>Kygo</small>Thrill Of The Chese</h4>
+                                        <picture>
+                                            <img src="./images/album6.jpg" alt="Image">
+                                        </picture>
+                                    </a>                                
+                                </button>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div>
+                                <button class="category_item" category="duki">
+                                    <a href="#son">
+                                        <h4><small>Duki</small>Super Sangre Joven</h4>
+                                        <picture>
+                                            <img src="./images/album9.jpg" alt="Image">
+                                        </picture>
+                                    </a>                                
+                                </button>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div>
+                                <button class="category_item" category="lit">
+                                    <a href="#son">
+                                        <h4><small>Lit Killah</small>MAWZ</h4>
+                                        <picture>
+                                            <img src="./images/album10.png" alt="Image">
+                                        </picture>
+                                    </a>                                
+                                </button>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div>
+                                <button class="category_item" category="travis">
+                                    <a href="#son">
+                                        <h4><small>Travis Scott</small>Astroworld</h4>
+                                        <picture>
+                                            <img src="./images/album14.jpg" alt="Image">
+                                        </picture>
+                                    </a>                                
+                                </button>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div>
+                                <button class="category_item" category="mello">
+                                    <a href="#son">
+                                        <h4><small>Marshmello</small>Joytime</h4>
+                                        <picture>
+                                            <img src="./images/album11.jpg" alt="Image">
+                                        </picture>
+                                    </a>                                
+                                </button>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div>
+                                <button class="category_item" category="martin">
+                                    <a href="#son">
+                                        <h4><small>Marting Garrix</small>Sentio</h4>
+                                        <picture>
+                                            <img src="./images/album12.jpg" alt="Image">
+                                        </picture>
+                                    </a>                                
+                                </button>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div>
+                                <button class="category_item" category="weeknd">
+                                    <a href="#son">
+                                        <h4><small>The Weeknd</small>Star Boy</h4>
+                                        <picture>
+                                            <img src="./images/album13.jpg" alt="Image">
+                                        </picture>
+                                    </a>                                
+                                </button>
+                            </div>
+                        </div>
+                        <div class="slick">
+                            <div>
+                                <button class="category_item" category="sheeran">
+                                    <a href="#son">
+                                        <h4><small>Ed Sheeran</small>Divide</h4>
+                                        <picture>
+                                            <img src="./images/album15.jpg" alt="Image">
+                                        </picture>
+                                    </a>                                
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="slick-arrow slick-next" id="button-next" data-button="button-next" onclick="app.processingButton(event)">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg>
+                    </button>
+                </div>
+               
+            <script type="text/javascript" src="assets/jquery/jquery.min.js"></script>
+            <script type="text/javascript" src="scriptrepro.js"></script>
+
+
+    
+        </div>
+        </section>
+
+
+        <section class="contenedornuevo2" id="nuevoo">
+            <div class="conuevo2">
+                <video src="images/Controlador - 70074.mp4" muted autoplay loop></video>
+                <div class="textosnue2">
+                    <h2 class="titulos">Ahora demuestra que puedes hacer</h2>
+                    <p>Encuentra tu lado mas creativo y experimenta con todos estos elementos
+                        proporcionados por OneTap, haz que tus producciones sean mas vivas que nunca
+                        usando las herramientas externas que tienes a la mano.
+                    </p>
+
+                        <button class="botonani" id="audi">
+                            <a href="https://twitter.com/lOneTapl" target="_blank"><i class="fa-solid fa-headphones"></i>Aprender mas</a>
+                        </button>
+                </div>
+            </div>
+
+            <div class="conuevo2">
+                <video class="video2" src="images/Sintetizador - 3239.mp4" muted autoplay loop></video>
+                <div class="textosnue2">
+                    <h2 class="titulos">Es muy facil empezar</h2>
+                    <p>Busca las herramientas que te permitan crecer y sumergete en este mundo, 
+                        solo necesitas querer hacerlo y un poco de creatividad. 
+                    </p>
+
+                        <button class="botonani" id="audi">
+                            <a href="https://www.facebook.com/profile.php?id=100091389575360" target="_blank"><i class="fa-solid fa-headphones"></i>Como lo hago</a>
+                        </button>
+                </div>
+            </div>
+
+            
+
+
+          
+    
+        </div>
+        </section>
+        
+    
+
+    </main>
+
+    <footer class="contenedorfoo" id="contactoo">
+        <div class="confoo">
+            <img src="images/OneTapLetraLogoBlanco.png" alt="" class="imgfloo">
+
+            <span class="lineafoo"></span>
+
+            <div class="socialesfoo">
+                <a href="https://www.facebook.com/profile.php?id=100091389575360" target="_blank"><img src="images/iconf.png"></a>
+                <a href="https://www.instagram.com/lone_tapl/"  target="_blank" ><img src="images/iconi.png"></a>
+                <a href="https://twitter.com/lOneTapl"  target="_blank" ><img src="images/icont.png"></a>
+            </div>
+
+            
+            <h3 class="titulo-final">| One Tap | ©United Networks | 2023 | <a href="terminoslicencias.html">Terminos y Condiciones</a> |</h3>
+        </div>
+
+    </footer>
+
+    <script src="main.js"></script>
+
+    
+</body>
+</html>
